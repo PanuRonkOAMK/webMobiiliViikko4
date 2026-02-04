@@ -56,6 +56,7 @@ export default function App () {
         renderHiddenItem={() => <View style={styles.rowBack} />}
         rightOpenValue={-75}
         disableRightSwipe
+        disableLeftSwipe //lol lmao
       />
     </View>
   );
